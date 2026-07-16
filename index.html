@@ -504,8 +504,66 @@ header {
 }
 
 
+.reviews-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.review {
+
+    background:
+    rgba(255,255,255,.06);
+
+    padding:25px;
+
+    border-radius:20px;
+
+}
+
+
+
+.stars {
+
+    margin-bottom:15px;
+
+}
+
+
+
+.review p {
+
+    font-size:16px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.review b {
+
+    color:#F4C542;
+
+}
+
+
 
 @media(max-width:800px){
+
+.reviews-grid {
+
+grid-template-columns:1fr;
+
+}
+
+}@media(max-width:800px){
 
 .steps-grid {
 
@@ -1046,7 +1104,77 @@ target="_blank">
 
 <!-- TELEGRAM -->
 
+<div class="card reviews">
 
+
+<h2>
+⭐ Отзывы наших курьеров
+</h2>
+
+
+<div class="reviews-grid">
+
+
+<div class="review">
+
+<div class="stars">
+⭐⭐⭐⭐⭐
+</div>
+
+<p>
+"Помогли быстро пройти регистрацию.
+Через несколько дней уже вышел на первые доставки."
+</p>
+
+<b>
+Алексей, Москва
+</b>
+
+</div>
+
+
+
+<div class="review">
+
+<div class="stars">
+⭐⭐⭐⭐⭐
+</div>
+
+<p>
+"Понравилось, что есть поддержка.
+Всегда отвечают и помогают разобраться."
+</p>
+
+<b>
+Иван, Санкт-Петербург
+</b>
+
+</div>
+
+
+
+<div class="review">
+
+<div class="stars">
+⭐⭐⭐⭐⭐
+</div>
+
+<p>
+"Удобно совмещать с другими делами.
+Сам выбираю, когда работать."
+</p>
+
+<b>
+Максим, Казань
+</b>
+
+</div>
+
+
+</div>
+
+
+</div>
 <div class="card telegram">
 
 
