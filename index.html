@@ -35,42 +35,82 @@ body {
 /* Шапка */
 
 header {
-    background: #111827;
+    background: #020617;
     padding: 25px 0;
 }
 
 
-/* Логотип */
+/* Бренд */
 
-.logo {
-    font-size: 42px;
-    font-weight: 900;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.brand-icon {
+
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 38px;
 
     background: linear-gradient(
-        90deg,
+        135deg,
         #2563EB,
         #7C3AED
     );
 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    border-radius: 22px;
+
+    box-shadow:
+    0 0 30px rgba(124,58,237,0.7);
+
+}
+
+
+.logo {
+
+    font-size: 42px;
+
+    font-weight: 900;
+
+    letter-spacing: 4px;
+
+    color: #FFFFFF;
+
+}
+
+
+.logo::first-letter {
+
+    color: #FACC15;
+
 }
 
 
 .tagline {
+
     margin-top: 8px;
-    color: #CBD5E1;
-    font-size: 16px;
+
+    font-size: 15px;
+
+    color: #94A3B8;
+
 }
 
 
-/* Первый экран */
+
+/* Главный экран */
 
 .hero {
 
-    padding: 80px 25px;
+    padding: 90px 25px;
 
     text-align: center;
 
@@ -81,14 +121,17 @@ header {
     );
 
     border-radius: 0 0 50px 50px;
+
 }
 
 
 .hero h1 {
 
-    font-size: 44px;
+    font-size: 46px;
+
     font-weight: 900;
-    margin-bottom: 20px;
+
+    margin-bottom: 25px;
 
 }
 
@@ -96,10 +139,13 @@ header {
 .hero p {
 
     font-size: 20px;
+
     color: #E2E8F0;
+
     margin-bottom: 30px;
 
 }
+
 
 
 /* Кнопка */
@@ -110,57 +156,62 @@ header {
 
     background: #FACC15;
 
-    color: #111827;
+    color:#111827;
 
-    padding: 18px 40px;
+    padding:18px 45px;
 
-    border-radius: 35px;
+    border-radius:35px;
 
-    font-size: 18px;
+    font-size:18px;
 
-    font-weight: 900;
+    font-weight:900;
 
-    text-decoration: none;
+    text-decoration:none;
 
-    transition: 0.3s;
+    transition:0.3s;
 
 }
 
 
 .btn:hover {
 
-    transform: scale(1.05);
+    transform:scale(1.05);
 
-    background: #FFFFFF;
+    background:#FFFFFF;
 
 }
 
 
 
-/* Блоки */
+/* Общие блоки */
 
 section {
 
-    margin: 35px 20px;
+    margin:35px 20px;
 
-    padding: 35px;
+    padding:35px;
 
-    background: rgba(255,255,255,0.08);
+    background:
 
-    border-radius: 25px;
+    rgba(255,255,255,0.08);
 
-    border: 1px solid rgba(255,255,255,0.1);
+    border-radius:25px;
+
+    border:
+
+    1px solid rgba(255,255,255,0.12);
 
 }
+
 
 
 section h2 {
 
-    text-align: center;
+    text-align:center;
 
-    font-size: 30px;
+    font-size:32px;
 
-    margin-bottom: 25px;
+    margin-bottom:30px;
 
 }
 
@@ -168,27 +219,31 @@ section h2 {
 
 section p {
 
-    color: #E2E8F0;
+    color:#E2E8F0;
 
-    font-size: 18px;
+    font-size:18px;
 
-    line-height: 1.6;
+    line-height:1.6;
 
-    margin-bottom: 12px;
+    margin-bottom:12px;
 
 }
 
 
 
-/* Карточки преимуществ */
+/* Преимущества */
 
-.card {
+.advantages,
+.steps,
+.trust {
 
-    background: rgba(255,255,255,0.1);
+    background:
 
-    padding: 25px;
-
-    border-radius: 20px;
+    linear-gradient(
+        145deg,
+        rgba(37,99,235,0.25),
+        rgba(124,58,237,0.25)
+    );
 
 }
 
@@ -198,7 +253,9 @@ section p {
 
 .telegram-contact {
 
-    background: linear-gradient(
+    background:
+
+    linear-gradient(
         135deg,
         #7C3AED,
         #2563EB
@@ -207,6 +264,37 @@ section p {
     text-align:center;
 
 }
+
+
+
+/* Форма */
+
+form {
+
+    max-width:600px;
+
+    margin:auto;
+
+}
+
+
+input,
+select {
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:15px;
+
+    border-radius:12px;
+
+    border:none;
+
+    font-size:16px;
+
+}
+
 
 
 /* Подвал */
@@ -219,18 +307,31 @@ footer {
 
     text-align:center;
 
-    color:#CBD5E1;
+    color:#94A3B8;
 
 }
+
 
 
 /* Мобильная версия */
 
 @media(max-width:600px){
 
+
+.brand-icon {
+
+    width:55px;
+
+    height:55px;
+
+    font-size:28px;
+
+}
+
+
 .logo {
 
-    font-size:32px;
+    font-size:28px;
 
 }
 
@@ -247,6 +348,7 @@ section {
     margin:20px 10px;
 
 }
+
 
 }
 
