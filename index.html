@@ -1,249 +1,377 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Работа курьером Яндекс Еды по всей России🚴 | Вакансии курьеров</title>
-<meta name="description" content="Стань курьером уже сегодня. Работа в доставке без опыта. Свободный график, быстрый старт и поддержка.">
-<meta name="keywords" content="работа курьером, вакансии курьер, доставка, курьер Россия">
+
+<title>COURIER HUB — Работа курьером Яндекс Еды по всей России</title>
+
+<meta name="description" content="Работа курьером Яндекс Еды. Свободный график, быстрый старт, поддержка и стабильный доход по всей России.">
+
+<meta name="keywords" content="работа курьером, курьер Яндекс Еда, вакансии курьер, работа доставка">
 
 <style>
 
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
 }
 
 
 body {
-    background: #0F172A;
-    color: #FFFFFF;
+
+    background:#08111F;
+    color:white;
+
 }
 
 
 /* Контейнер */
 
 .container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 20px;
+
+    max-width:1150px;
+    margin:auto;
+    padding:20px;
+
 }
 
 
-/* Шапка */
+/* ======================
+   HEADER
+====================== */
+
 
 header {
-    background: #020617;
-    padding: 25px 0;
+
+    background:#050B16;
+    padding:25px 0;
+
 }
 
-
-/* Бренд */
 
 .brand {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+
+    display:flex;
+    align-items:center;
+    gap:18px;
+
 }
 
 
-.brand-icon {
+/* индивидуальная эмблема */
 
-    width: 70px;
-    height: 70px;
+.logo-mark {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width:75px;
+    height:75px;
 
-    font-size: 38px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-    background: linear-gradient(
+    border-radius:24px;
+
+    background:
+    linear-gradient(
         135deg,
-        #2563EB,
-        #7C3AED
+        #3155D9,
+        #7555D9
     );
 
-    border-radius: 22px;
-
     box-shadow:
-    0 0 30px rgba(124,58,237,0.7);
+    0 0 35px rgba(117,85,217,.45);
+
+    font-size:34px;
 
 }
 
+
+/* название */
 
 .logo {
 
-    font-size: 42px;
+    font-size:42px;
+    font-weight:900;
 
-    font-weight: 900;
-
-    letter-spacing: 4px;
-
-    color: #FFFFFF;
-
-}
-
-
-.logo::first-letter {
-
-    color: #FACC15;
+    letter-spacing:4px;
 
 }
 
 
 .tagline {
 
-    margin-top: 8px;
+    margin-top:6px;
 
-    font-size: 15px;
+    color:#94A3B8;
 
-    color: #94A3B8;
+    font-size:16px;
 
 }
 
 
 
-/* Главный экран */
+/* ======================
+ HERO
+====================== */
+
 
 .hero {
 
-    padding: 90px 25px;
+    background:
 
-    text-align: center;
-
-    background: linear-gradient(
+    linear-gradient(
         135deg,
-        #2563EB,
-        #7C3AED
+        #243B9F,
+        #6947B8
     );
 
-    border-radius: 0 0 50px 50px;
+    border-radius:
+    0 0 55px 55px;
+
+    padding:80px 0;
 
 }
+
+
+.hero-container {
+
+    max-width:1150px;
+
+    margin:auto;
+
+    padding:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:50px;
+
+}
+
+
+
+.hero-text {
+
+    flex:1;
+
+}
+
+
+.badge {
+
+    display:inline-block;
+
+    background:
+    rgba(255,255,255,.15);
+
+    padding:12px 20px;
+
+    border-radius:30px;
+
+    margin-bottom:25px;
+
+    font-size:15px;
+
+}
+
 
 
 .hero h1 {
 
-    font-size: 46px;
+    font-size:52px;
 
-    font-weight: 900;
+    line-height:1.1;
 
-    margin-bottom: 25px;
+    margin-bottom:25px;
 
 }
 
 
 .hero p {
 
-    font-size: 20px;
+    font-size:20px;
 
-    color: #E2E8F0;
+    line-height:1.6;
 
-    margin-bottom: 30px;
+    color:#E2E8F0;
 
 }
 
 
 
-/* Кнопка */
+/* теги */
+
+.tags {
+
+    display:flex;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+
+    margin:30px 0;
+
+}
+
+
+
+.tags span {
+
+    background:
+    rgba(255,255,255,.12);
+
+    padding:12px 18px;
+
+    border-radius:25px;
+
+    font-size:15px;
+
+}
+
+
+
+/* кнопка */
 
 .btn {
 
-    display: inline-block;
+    display:inline-block;
 
-    background: #FACC15;
+    padding:18px 40px;
+
+    border-radius:35px;
+
+    background:#F4C542;
 
     color:#111827;
 
-    padding:18px 45px;
-
-    border-radius:35px;
+    text-decoration:none;
 
     font-size:18px;
 
     font-weight:900;
 
-    text-decoration:none;
-
-    transition:0.3s;
+    transition:.3s;
 
 }
 
 
 .btn:hover {
 
-    transform:scale(1.05);
+    transform:translateY(-3px);
 
-    background:#FFFFFF;
+    background:white;
 
 }
 
 
 
-/* Общие блоки */
+/* ======================
+ ИЛЛЮСТРАЦИЯ
+====================== */
 
-section {
 
-    margin:35px 20px;
+.hero-image {
 
-    padding:35px;
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+
+
+.courier-art {
+
+    width:370px;
+
+    height:370px;
+
+    border-radius:50%;
 
     background:
 
-    rgba(255,255,255,0.08);
+    linear-gradient(
+    145deg,
+    #162B55,
+    #34205C
+    );
 
-    border-radius:25px;
+    display:flex;
 
-    border:
+    justify-content:center;
 
-    1px solid rgba(255,255,255,0.12);
+    align-items:center;
+
+    font-size:150px;
+
+    box-shadow:
+
+    0 30px 60px rgba(0,0,0,.35);
 
 }
 
 
 
-section h2 {
+/* ======================
+ БЛОКИ
+====================== */
+
+
+.section {
+
+    margin:40px auto;
+
+}
+
+
+
+.card {
+
+    background:
+
+    rgba(255,255,255,.06);
+
+    border:
+
+    1px solid rgba(255,255,255,.1);
+
+    border-radius:30px;
+
+    padding:35px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.card h2 {
 
     text-align:center;
 
     font-size:32px;
 
-    margin-bottom:30px;
+    margin-bottom:25px;
 
 }
 
 
+.card p {
 
-section p {
-
-    color:#E2E8F0;
+    color:#CBD5E1;
 
     font-size:18px;
 
-    line-height:1.6;
-
-    margin-bottom:12px;
-
-}
-
-
-
-/* Преимущества */
-
-.advantages,
-.steps,
-.trust {
-
-    background:
-
-    linear-gradient(
-        145deg,
-        rgba(37,99,235,0.25),
-        rgba(124,58,237,0.25)
-    );
+    line-height:1.7;
 
 }
 
@@ -251,14 +379,15 @@ section p {
 
 /* Telegram */
 
-.telegram-contact {
+
+.telegram {
 
     background:
 
     linear-gradient(
-        135deg,
-        #7C3AED,
-        #2563EB
+    135deg,
+    #3155D9,
+    #7555D9
     );
 
     text-align:center;
@@ -269,43 +398,55 @@ section p {
 
 /* Форма */
 
-form {
-
-    max-width:600px;
-
-    margin:auto;
-
-}
-
 
 input,
 select {
 
     width:100%;
 
-    padding:15px;
+    padding:16px;
 
-    margin-bottom:15px;
-
-    border-radius:12px;
+    border-radius:15px;
 
     border:none;
+
+    margin:8px 0;
 
     font-size:16px;
 
 }
 
 
+button {
 
-/* Подвал */
+    width:100%;
+
+    padding:17px;
+
+    border-radius:30px;
+
+    border:none;
+
+    background:#F4C542;
+
+    font-size:17px;
+
+    font-weight:900;
+
+}
+
+
+
+/* FOOTER */
+
 
 footer {
 
-    background:#020617;
-
-    padding:30px;
+    background:#050B16;
 
     text-align:center;
+
+    padding:35px;
 
     color:#94A3B8;
 
@@ -313,18 +454,24 @@ footer {
 
 
 
-/* Мобильная версия */
-
-@media(max-width:600px){
+/* MOBILE */
 
 
-.brand-icon {
+@media(max-width:800px){
 
-    width:55px;
 
-    height:55px;
+.hero-container {
 
-    font-size:28px;
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.hero h1 {
+
+    font-size:36px;
 
 }
 
@@ -336,224 +483,49 @@ footer {
 }
 
 
-.hero h1 {
+.logo-mark {
 
-    font-size:32px;
+    width:60px;
 
-}
-
-
-section {
-
-    margin:20px 10px;
+    height:60px;
 
 }
 
 
-}
+.courier-art {
 
-/* Новый первый экран */
+    width:280px;
 
-.hero-container {
+    height:280px;
 
-display:flex;
-
-align-items:center;
-
-justify-content:space-between;
-
-gap:40px;
-
-max-width:1100px;
-
-margin:auto;
-
-padding:40px 20px;
+    font-size:110px;
 
 }
 
 
-.hero-text {
-
-flex:1;
-
 }
 
 
-.hero-text h1 {
-
-font-size:48px;
-
-line-height:1.1;
-
-}
-
-
-.hero-tags {
-
-display:flex;
-
-gap:10px;
-
-flex-wrap:wrap;
-
-margin:25px 0;
-
-}
-
-
-.hero-tags span {
-
-background:rgba(255,255,255,0.15);
-
-padding:10px 18px;
-
-border-radius:30px;
-
-font-size:14px;
-
-}
-
-
-.hero-image {
-
-flex:1;
-
-}
-
-
-.hero-image img {
-
-width:100%;
-
-max-width:450px;
-
-border-radius:30px;
-
-box-shadow:
-0 20px 50px rgba(0,0,0,0.35);
-
-}
-
-
-
-/* Телефон */
-
-@media(max-width:700px){
-
-.hero-container{
-
-flex-direction:column;
-
-text-align:center;
-
-}
-
-
-.hero-text h1{
-
-font-size:34px;
-
-}
-
-
-.hero-image img{
-
-max-width:320px;
-
-}
-
-}
-.partner {
-
-display:inline-block;
-
-background:rgba(255,255,255,0.15);
-
-padding:10px 18px;
-
-border-radius:30px;
-
-margin-bottom:25px;
-
-font-size:15px;
-
-}
-
-
-
-.hero-image {
-
-position:relative;
-
-}
-
-
-
-.hero-image img {
-
-width:100%;
-
-max-width:430px;
-
-border-radius:35px;
-
-}
-
-
-
-.income-card {
-
-position:absolute;
-
-bottom:20px;
-
-left:20px;
-
-background:white;
-
-color:#111827;
-
-padding:15px 25px;
-
-border-radius:20px;
-
-font-size:16px;
-
-box-shadow:0 10px 30px rgba(0,0,0,0.3);
-
-}
-
-
-.income-card b {
-
-font-size:22px;
-
-color:#2563EB;
-
-}
 </style>
 
 </head>
-<div class="telegram-contact">
-
-<h3>Есть вопросы?</h3>
-
-<p>Напишите нам в Telegram, и мы поможем начать работу</p>
-
-<a href="https://t.me/ki_sergeevich" target="_blank">
-💬 Написать в Telegram
-</a>
-
-</div>
 
 <body>
+
+
+<!-- HEADER -->
+
 <header>
+
+<div class="container">
+
 <div class="brand">
 
-<div class="brand-icon">
-🚴
+
+<div class="logo-mark">
+➤
 </div>
+
 
 <div>
 
@@ -561,9 +533,14 @@ color:#2563EB;
 COURIER HUB
 </div>
 
+
 <div class="tagline">
 Работа. Доход. Движение.
 </div>
+
+
+</div>
+
 
 </div>
 
@@ -571,7 +548,12 @@ COURIER HUB
 
 </header>
 
+
+
+<!-- HERO -->
+
 <section class="hero">
+
 
 <div class="hero-container">
 
@@ -579,46 +561,79 @@ COURIER HUB
 <div class="hero-text">
 
 
-<div class="partner">
-✅ Официальный партнер Яндекс Еды
+<div class="badge">
+
+✓ Официальный партнер Яндекс Еды
+
 </div>
+
 
 
 <h1>
-Стань курьером<br>
+
+Стань курьером
+<br>
 и начни зарабатывать
+
 </h1>
 
 
+
 <p>
+
 Работа в доставке по всей России.
 Свободный график, быстрый старт и поддержка на каждом этапе.
+
 </p>
 
 
-<div class="hero-tags">
 
-<span>💰 Стабильный доход</span>
+<div class="tags">
 
-<span>⚡ Выход на линию быстро</span>
 
-<span>📍 Вся Россия</span>
+<span>
+💰 Стабильный доход
+</span>
+
+
+<span>
+⚡ Быстрый старт
+</span>
+
+
+<span>
+📍 Вся Россия
+</span>
+
 
 </div>
+
+
+
+<a class="btn" 
+href="https://docs.google.com/forms/d/e/1FAIpQLSfNd2PY4hismAtcACG_-tF4DQVURzbZC_CPSF-0QiK58KshYg/viewform"
+target="_blank">
+
+Получить работу
+
+</a>
+
+
+
 </div>
 
 
+
+
+
+<!-- ИЛЛЮСТРАЦИЯ КУРЬЕРА -->
 
 <div class="hero-image">
 
 
-<img src="https://i.imgur.com/8Km9tLL.png" alt="Курьер Яндекс Еды">
+<div class="courier-art">
 
-
-<div class="income-card">
-
-💰 Доход курьера<br>
-<b>от 70 000 ₽</b>
+🛵
 
 </div>
 
@@ -628,99 +643,322 @@ COURIER HUB
 
 
 </div>
+
 
 </section>
 
-</section>
 
-<a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfNd2PY4hismAtcACG_-tF4DQVURzbZC_CPSF-0QiK58KshYg/viewform?usp=header" target="_blank">Получить работу</a>
-</div>
-</section>
 
-<section class="section">
-<div class="container">
-<h2>Почему выбирают нас</h2>
-<div class="cards">
-<div class="card"><h3>💰 Стабильный доход</h3><p>Работа с возможностью получать достойный заработок каждый месяц.</p></div>
-<div class="card"><h3>⏰ Свободный график</h3><p>Вы сами выбираете, когда выходить на линию и сколько работать.</p></div>
-<div class="card"><h3>🚀 БЫСТРЫЙ старт</h3><p>Помогаем пройти регистрацию и начать работу без сложностей.</p></div>
-<div class="card"><h3>📍 Работа по всей России</h3><p>Работа доступна в разных городах.</p></div>
-</div>
-</div>
-</section>
 
-<section class="section" id="form">
-<div class="container">
-<h2>Получить работу</h2>
-<div class="form">
-<input placeholder="Ваше имя">
-<input placeholder="Телефон">
-<select><option>Выберите транспорт</option><option>Пешком</option><option>Велосипед</option><option>Автомобиль</option></select>
-<input placeholder="Ваш город">
-<button onclick="alert('Спасибо! Мы свяжемся с вами.')">Отправить заявку</button>
+
+<!-- ПРЕИМУЩЕСТВА -->
+
+
+<div class="container section">
+
+
+<div class="card">
+
+
+<h2>
+Почему выбирают COURIER HUB
+</h2>
+
+
+
+<p>
+
+💰 Помогаем начать зарабатывать без опыта
+
+<br><br>
+
+⏰ Вы сами выбираете удобный график
+
+<br><br>
+
+🚴 Можно работать пешком, на велосипеде или автомобиле
+
+<br><br>
+
+📲 Помогаем пройти регистрацию и подключение
+
+<br><br>
+
+🔥 Поддержка на каждом этапе работы
+
+</p>
+
+
+
 </div>
+
+
+
+
+
+<!-- ДОХОД -->
+
+
+<div class="card">
+
+
+<h2>
+Сколько можно заработать?
+</h2>
+
+
+
+<p>
+
+💵 Доход зависит от количества выполненных заказов,
+города и времени работы.
+
+<br><br>
+
+⚡ Чем больше выходов на линию — тем выше заработок.
+
+<br><br>
+
+📍 Работа доступна в городах по всей России.
+
+</p>
+
+
 </div>
-</section>
+
+
+
+
+
+
+<!-- КАК НАЧАТЬ -->
+
+
+<div class="card">
+
+
+<h2>
+Как начать работать?
+</h2>
+
+
+
+<p>
+
+1️⃣ Оставьте заявку на сайте
+
+<br><br>
+
+2️⃣ Мы свяжемся с вами и ответим на вопросы
+
+<br><br>
+
+3️⃣ Поможем пройти регистрацию
+
+<br><br>
+
+4️⃣ Выходите на первые доставки
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+<!-- TELEGRAM -->
+
+
+<div class="card telegram">
+
+
+<h2>
+💬 Есть вопросы?
+</h2>
+
+
+<p>
+
+Напишите нам в Telegram —
+поможем разобраться и начать работу.
+
+</p>
+
+
+<br>
+
+
+<a class="btn"
+href="https://t.me/ki_sergeevich"
+target="_blank">
+
+Написать в Telegram
+
+</a>
+
+
+
+</div>
+
+
+
+</div>
+
+<!-- ФОРМА ЗАЯВКИ -->
+
+<div class="container section">
+
+
+<div class="card" id="form">
+
+
+<h2>
+Получить работу
+</h2>
+
+
+<p style="text-align:center;margin-bottom:25px;">
+
+Оставьте заявку — мы свяжемся с вами и поможем начать работу.
+
+</p>
+
+
+
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfNd2PY4hismAtcACG_-tF4DQVURzbZC_CPSF-0QiK58KshYg/viewform"
+target="_blank">
+
+
+<input 
+type="text"
+placeholder="Ваше имя">
+
+
+
+<input
+type="tel"
+placeholder="Ваш телефон">
+
+
+
+<select>
+
+<option>
+Выберите транспорт
+</option>
+
+<option>
+Пешком
+</option>
+
+<option>
+Велосипед
+</option>
+
+<option>
+Автомобиль
+</option>
+
+</select>
+
+
+
+<input
+type="text"
+placeholder="Ваш город">
+
+
+
+<button type="submit">
+
+Отправить заявку
+
+</button>
+
+
+</form>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<!-- ДОВЕРИЕ -->
+
+
+<div class="container section">
+
+
+<div class="card">
+
+
+<h2>
+Почему нам доверяют
+</h2>
+
+
+<p>
+
+✅ Работаем с кандидатами из разных городов России
+
+<br><br>
+
+✅ Помогаем разобраться с подключением
+
+<br><br>
+
+✅ Отвечаем на вопросы в Telegram
+
+<br><br>
+
+✅ Сопровождаем на старте работы
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- FOOTER -->
+
 
 <footer>
-<p>Courier Team © 2026</p>
-<p>Telegram: @ki_sergeevich</p>
+
+
+<p>
+
+COURIER HUB © 2026
+
+</p>
+
+
+<p>
+
+Telegram: @ki_sergeevich
+
+</p>
+
+
 </footer>
-  <section class="advantages">
 
-<h2>Почему стоит стать курьером Яндекс Еда?</h2>
 
-<div>
-
-<p>💰 Доход от 700 ₽ в час*</p>
-
-<p>🕒 Выбирайте удобный график</p>
-
-<p>🚴 Можно работать пешком, на велосипеде или автомобиле</p>
-
-<p>📲 Поможем пройти регистрацию</p>
-
-<p>🔥 Начните зарабатывать уже сегодня</p>
-
-</div>
-
-</section>
 
 </body>
-  <section class="steps">
-
-<h2>Как начать работать?</h2>
-
-<div>
-
-<p>1️⃣ Оставьте заявку на сайте</p>
-
-<p>2️⃣ Мы свяжемся с вами и ответим на вопросы</p>
-
-<p>3️⃣ Поможем пройти регистрацию курьера</p>
-
-<p>4️⃣ Выходите на первые доставки</p>
-
-</div>
-
-</section>
-
-<section class="trust">
-
-<h2>Мы поможем на каждом этапе</h2>
-
-<p>
-✅ Подскажем, как начать работу
-</p>
-
-<p>
-✅ Поможем разобраться с подключением
-</p>
-
-<p>
-✅ Всегда на связи в Telegram
-</p>
-
-</section>
 
 </html>
