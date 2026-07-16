@@ -9,87 +9,87 @@
 
 
 <title>
-COURIER HUB — Работа курьером Яндекс Еды по всей России
+Работа курьером Яндекс Еда — вакансии курьера по всей России | COURIER HUB
 </title>
 
 
 <meta name="description" content="
-COURIER HUB — подключение курьеров Яндекс Еды. Свободный график, быстрый старт, помощь с регистрацией и стабильный доход.
+Работа курьером Яндекс Еда по всей России. Свободный график, быстрый старт, помощь с подключением и поддержка на каждом этапе.
 ">
 
 
 <meta name="keywords" content="
 работа курьером,
-Яндекс Еда курьер,
-работа доставка,
-курьер Санкт-Петербург,
-работа по России
+курьер Яндекс Еда,
+вакансии курьера,
+работа курьером без опыта,
+курьер с ежедневной оплатой,
+доставка работа
 ">
 
 
-<meta name="author" content="
-ИП Боровиков Кирилл Сергеевич
-">
+<meta name="author" content="ИП Боровиков Кирилл Сергеевич">
 
 
-<!-- Open Graph -->
+<meta name="robots" content="index, follow">
 
-<meta property="og:title" content="
-COURIER HUB — Работа курьером
-">
 
-<meta property="og:description" content="
-Начни зарабатывать курьером. Быстрое подключение и поддержка на каждом этапе.
-">
+<meta name="theme-color" content="#0B1220">
+
+
+
+<meta property="og:title" content="COURIER HUB — работа курьером Яндекс Еда">
+
+<meta property="og:description" content="Станьте курьером. Свободный график, быстрый старт и помощь на каждом этапе.">
 
 <meta property="og:type" content="website">
 
 
-<!-- ШРИФТ -->
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- Schema.org -->
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script type="application/ld+json">
 
-<link href="https://docs.google.com/forms/d/e/1FAIpQLSfNd2PY4hismAtcACG_-tF4DQVURzbZC_CPSF-0QiK58KshYg/viewform?usp=header" rel="stylesheet">
+{
+ "@context":"https://schema.org",
+ "@type":"Organization",
+ "name":"COURIER HUB",
+ "description":"Подключение курьеров к работе в Яндекс Еда",
+ "telephone":"+79013082317",
+ "email":"kb0rovikov@yandex.ru",
+ "address":{
+ "@type":"PostalAddress",
+ "addressRegion":"Санкт-Петербург"
+ }
+}
+
+</script>
 
 
 
 <style>
 
 
-/* ===== ОСНОВА ===== */
-
-
 *{
+
 margin:0;
+
 padding:0;
+
 box-sizing:border-box;
-}
 
+font-family:Arial, Helvetica, sans-serif;
 
-html{
-scroll-behavior:smooth;
 }
 
 
 
 body{
 
-font-family:'Inter', Arial, sans-serif;
-
-background:#050816;
+background:#0B1220;
 
 color:#ffffff;
 
-overflow-x:hidden;
-
-}
-
-
-
-a{
-text-decoration:none;
 }
 
 
@@ -98,7 +98,7 @@ text-decoration:none;
 
 max-width:1200px;
 
-margin:0 auto;
+margin:auto;
 
 padding:0 25px;
 
@@ -106,73 +106,190 @@ padding:0 25px;
 
 
 
-/* ===== ЦВЕТА ===== */
+/* ===== ВЕРХНИЙ TELEGRAM ===== */
 
 
-:root{
+.telegram-top{
 
---blue:#2563EB;
+background:
 
---purple:#7C3AED;
+linear-gradient(
+90deg,
+#2563EB,
+#4338CA
+);
 
---yellow:#FACC15;
+text-align:center;
 
---dark:#050816;
+padding:12px;
 
---card:rgba(255,255,255,0.08);
-
---text:#CBD5E1;
-
-}
-
-
-
-/* ===== АНИМАЦИИ ===== */
-
-
-.fade{
-
-animation:fadeUp .8s ease forwards;
+font-size:16px;
 
 }
 
 
 
-@keyframes fadeUp{
+.telegram-top a{
 
-from{
+color:white;
 
-opacity:0;
+font-weight:700;
 
-transform:translateY(30px);
-
-}
-
-
-to{
-
-opacity:1;
-
-transform:translateY(0);
-
-}
+text-decoration:none;
 
 }
 
 
 
-/* ===== ОБЩИЕ ЗАГОЛОВКИ ===== */
+
+
+/* ===== HEADER ===== */
+
+
+header{
+
+background:#070D18;
+
+padding:20px 0;
+
+border-bottom:
+
+1px solid rgba(255,255,255,.08);
+
+}
+
+
+
+.header-content{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+}
+
+
+
+.brand{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+}
+
+
+
+.logo-symbol{
+
+width:70px;
+
+height:70px;
+
+border-radius:22px;
+
+background:
+
+linear-gradient(
+135deg,
+#2563EB,
+#7C3AED
+);
+
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+
+box-shadow:
+
+0 10px 35px rgba(37,99,235,.5);
+
+}
+
+
+
+.ks-logo{
+
+font-size:32px;
+
+font-weight:900;
+
+letter-spacing:-8px;
+
+transform:translateX(-3px);
+
+}
+
+
+
+.ks-logo span:first-child{
+
+color:white;
+
+}
+
+
+
+.ks-logo span:last-child{
+
+color:#FACC15;
+
+}
+
+
+
+.logo-text{
+
+font-size:28px;
+
+font-weight:900;
+
+letter-spacing:1px;
+
+}
+
+
+
+.logo-text span{
+
+color:#FACC15;
+
+}
+
+
+
+.subtitle{
+
+font-size:14px;
+
+color:#94A3B8;
+
+margin-top:5px;
+
+}
+
+
+
+
+
+/* ===== ОБЩИЕ СТИЛИ ===== */
 
 
 h2{
 
-font-size:42px;
-
-font-weight:800;
-
 text-align:center;
 
-margin-bottom:45px;
+font-size:36px;
+
+margin-bottom:40px;
 
 }
 
@@ -180,54 +297,49 @@ margin-bottom:45px;
 
 .section{
 
-padding:90px 0;
+padding:80px 0;
 
 }
 
 
 
-/* ===== КНОПКИ ===== */
+.glass{
+
+background:
+
+rgba(255,255,255,.07);
+
+border:
+
+1px solid rgba(255,255,255,.1);
+
+border-radius:25px;
+
+backdrop-filter:blur(10px);
+
+}
+
 
 
 .main-btn{
 
-display:inline-flex;
+display:inline-block;
 
-align-items:center;
-
-justify-content:center;
-
-
-background:
-
-linear-gradient(
-135deg,
-var(--yellow),
-#fde047
-);
-
+background:#FACC15;
 
 color:#111827;
 
-
 padding:18px 45px;
 
-
-border-radius:50px;
-
+border-radius:40px;
 
 font-size:18px;
 
+font-weight:900;
 
-font-weight:800;
-
+text-decoration:none;
 
 transition:.3s;
-
-
-box-shadow:
-
-0 15px 40px rgba(250,204,21,.25);
 
 }
 
@@ -235,81 +347,12 @@ box-shadow:
 
 .main-btn:hover{
 
-transform:translateY(-5px) scale(1.03);
+transform:translateY(-5px);
 
-box-shadow:
-
-0 20px 50px rgba(250,204,21,.4);
+background:white;
 
 }
 
-
-
-/* ===== КАРТОЧКИ ===== */
-
-
-.glass{
-
-background:
-
-var(--card);
-
-
-border:
-
-1px solid rgba(255,255,255,.12);
-
-
-backdrop-filter:blur(15px);
-
-
-border-radius:30px;
-
-}
-
-
-
-/* ===== АДАПТАЦИЯ ===== */
-
-
-@media(max-width:900px){
-
-
-h2{
-
-font-size:32px;
-
-}
-
-
-.container{
-
-padding:0 18px;
-
-}
-
-
-}
-
-
-@media(max-width:600px){
-
-
-h2{
-
-font-size:28px;
-
-}
-
-
-.main-btn{
-
-width:100%;
-
-}
-
-
-}
 
 
 
@@ -319,17 +362,18 @@ width:100%;
 </head>
 
 
+
 <body>
 
-<!-- ===== TELEGRAM TOP ===== -->
+
 
 <div class="telegram-top">
 
-💬 Есть вопросы?
+❓ Есть вопросы?
 
 <a href="https://t.me/ki_sergeevich" target="_blank">
 
-Напишите нам — поможем начать работу
+Напишите нам в Telegram — поможем начать работу
 
 </a>
 
@@ -337,34 +381,38 @@ width:100%;
 
 
 
-<!-- ===== HEADER ===== -->
-
 
 <header>
 
-<div class="container header-inner">
+<div class="container header-content">
 
 
 <div class="brand">
 
 
-<div class="brand-logo">
+<div class="logo-symbol">
 
-CH
+<div class="ks-logo">
+
+<span>К</span><span>С</span>
+
+</div>
 
 </div>
 
 
+
 <div>
 
-<div class="brand-name">
+
+<div class="logo-text">
 
 COURIER <span>HUB</span>
 
 </div>
 
 
-<div class="brand-sub">
+<div class="subtitle">
 
 Работа. Доход. Движение.
 
@@ -379,11 +427,7 @@ COURIER <span>HUB</span>
 
 </div>
 
-
 </header>
-
-
-
 
 <!-- ===== HERO ===== -->
 
@@ -391,19 +435,20 @@ COURIER <span>HUB</span>
 <section class="hero">
 
 
-<div class="container hero-grid">
+<div class="container hero-content">
 
 
 
-<div class="hero-content fade">
+<div class="hero-text">
 
 
 
-<div class="badge">
+<div class="partner">
 
 ✅ Официальный партнер Яндекс Еды
 
 </div>
+
 
 
 
@@ -413,54 +458,47 @@ COURIER <span>HUB</span>
 
 <br>
 
-с доходом
-
 <span>
 
-от 70 000 ₽
+Яндекс Еда
 
 </span>
+
+по всей России
 
 </h1>
 
 
 
+
 <p>
 
-Подключаем курьеров по всей России.
+Начните зарабатывать курьером без опыта.
 
-Свободный график, быстрый старт и поддержка на каждом этапе.
+Свободный график, быстрый старт и поддержка на каждом этапе подключения.
 
 </p>
 
 
 
-<div class="hero-buttons">
 
 
 <a class="main-btn"
 
-href="https://docs.google.com/forms/d/e/1FAIpQLSfNd2PY4hismAtcACG_-tF4DQVURzbZC_CPSF-0QiK58KshYg/viewform?usp=header"
+href="https://docs.google.com/forms/d/e/1FAIpQLSfNd2PY4hismAtcACG_-tF4DQVURzbZC_CPSF-0QiK58KshYg/viewform"
 
 target="_blank">
 
-🚀 Хочу зарабатывать
+Получить работу
 
 </a>
 
 
-</div>
 
 
 
-<div class="mini-benefits">
+<div class="tags">
 
-
-<div>
-
-⚡ Старт за 1 день
-
-</div>
 
 
 <div>
@@ -470,47 +508,58 @@ target="_blank">
 </div>
 
 
+
 <div>
 
-📍 Вся Россия
-
-</div>
-
-
-</div>
-
-
+⚡ Быстрый старт
 
 </div>
 
 
 
+<div>
+
+📍 Работа по России
+
+</div>
 
 
-<!-- КАРТИНКА -->
+
+</div>
 
 
-<div class="hero-photo glass fade">
+
+</div>
 
 
-<img src="courier.png"
-
-alt="Курьер COURIER HUB">
 
 
-<div class="income-card">
 
 
-<span>
+<div class="hero-image">
+
+
+
+<div class="courier-art">
+
+
+<img src="courier.png" alt="Работа курьером Яндекс Еда">
+
+
+</div>
+
+
+
+
+<div class="income">
+
 
 Доход курьера
-
-</span>
 
 
 <strong>
 
-70 000 ₽+
+от 70 000 ₽
 
 </strong>
 
@@ -532,172 +581,20 @@ alt="Курьер COURIER HUB">
 
 
 
+
 <style>
 
 
-/* TELEGRAM */
 
+/* ===== HERO ===== */
 
-.telegram-top{
-
-background:
-
-linear-gradient(
-90deg,
-#2563EB,
-#7C3AED
-);
-
-
-padding:14px;
-
-text-align:center;
-
-font-size:15px;
-
-}
-
-
-
-.telegram-top a{
-
-color:white;
-
-font-weight:800;
-
-margin-left:8px;
-
-}
-
-
-
-
-
-/* HEADER */
-
-
-header{
-
-padding:22px 0;
-
-background:#070B18;
-
-border-bottom:
-
-1px solid rgba(255,255,255,.08);
-
-}
-
-
-
-.header-inner{
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-}
-
-
-
-.brand{
-
-display:flex;
-
-align-items:center;
-
-gap:18px;
-
-}
-
-
-
-.brand-logo{
-
-
-width:70px;
-
-height:70px;
-
-
-border-radius:22px;
-
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-
-font-size:30px;
-
-font-weight:900;
-
-
-background:
-
-linear-gradient(
-135deg,
-#2563EB,
-#7C3AED
-);
-
-
-box-shadow:
-
-0 15px 40px rgba(37,99,235,.35);
-
-}
-
-
-
-.brand-name{
-
-font-size:28px;
-
-font-weight:900;
-
-letter-spacing:1px;
-
-}
-
-
-
-.brand-name span{
-
-color:#FACC15;
-
-}
-
-
-
-.brand-sub{
-
-font-size:14px;
-
-color:#94A3B8;
-
-margin-top:5px;
-
-}
-
-
-
-
-
-/* HERO */
 
 
 .hero{
 
-padding:90px 0;
-
+padding:80px 0;
 
 background:
-
 
 radial-gradient(
 
@@ -709,42 +606,38 @@ transparent 40%
 
 );
 
-
 }
 
 
 
-.hero-grid{
 
+.hero-content{
 
-display:grid;
-
-grid-template-columns:
-
-1fr 500px;
-
-
-gap:60px;
-
+display:flex;
 
 align-items:center;
 
+justify-content:space-between;
+
+gap:50px;
 
 }
 
 
 
-.badge{
 
+.hero-text{
+
+max-width:600px;
+
+}
+
+
+
+
+.partner{
 
 display:inline-block;
-
-
-padding:12px 20px;
-
-
-border-radius:40px;
-
 
 background:
 
@@ -756,30 +649,16 @@ border:
 1px solid rgba(250,204,21,.4);
 
 
-
 color:#FACC15;
 
 
-font-weight:700;
+padding:10px 18px;
 
 
-margin-bottom:30px;
+border-radius:30px;
 
 
-}
-
-
-
-.hero h1{
-
-
-font-size:60px;
-
-
-line-height:1.05;
-
-
-font-weight:900;
+font-size:15px;
 
 
 margin-bottom:25px;
@@ -789,74 +668,76 @@ margin-bottom:25px;
 
 
 
-.hero h1 span{
 
+
+.hero h1{
+
+font-size:54px;
+
+line-height:1.1;
+
+margin-bottom:25px;
+
+}
+
+
+
+
+
+.hero h1 span{
 
 color:#FACC15;
 
-
 }
+
+
 
 
 
 .hero p{
 
-
 font-size:20px;
-
 
 line-height:1.6;
 
-
 color:#CBD5E1;
 
-
-max-width:600px;
-
-
-margin-bottom:35px;
-
+margin-bottom:30px;
 
 }
 
 
 
-.mini-benefits{
 
+
+.tags{
 
 display:flex;
 
+gap:12px;
 
 flex-wrap:wrap;
 
-
-gap:12px;
-
-
-margin-top:35px;
-
+margin-top:30px;
 
 }
 
 
 
-.mini-benefits div{
 
 
-padding:12px 18px;
-
-
-border-radius:30px;
+.tags div{
 
 
 background:
 
-rgba(255,255,255,.08);
+rgba(255,255,255,.1);
 
 
-border:
+padding:10px 18px;
 
-1px solid rgba(255,255,255,.1);
+
+border-radius:25px;
 
 
 font-size:14px;
@@ -868,41 +749,77 @@ font-size:14px;
 
 
 
-/* PHOTO */
+.hero-image{
+
+width:450px;
+
+height:450px;
 
 
-.hero-photo{
+border-radius:45px;
 
 
-height:560px;
+background:
+
+linear-gradient(
+
+145deg,
+
+#1E3A8A,
+
+#4C1D95
+
+);
+
+
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
 
 
 position:relative;
 
 
-display:flex;
-
-
-align-items:center;
-
-
-justify-content:center;
-
-
 overflow:hidden;
+
+
+box-shadow:
+
+0 25px 60px rgba(37,99,235,.35);
 
 
 }
 
 
 
-.hero-photo img{
+
+.courier-art{
+
+width:100%;
+
+height:100%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+}
 
 
-width:90%;
 
 
-height:90%;
+.courier-art img{
+
+
+width:85%;
+
+
+max-width:360px;
 
 
 object-fit:contain;
@@ -911,7 +828,9 @@ object-fit:contain;
 filter:
 
 drop-shadow(
-0 30px 40px rgba(0,0,0,.5)
+
+0 20px 30px rgba(0,0,0,.35)
+
 );
 
 
@@ -919,16 +838,17 @@ drop-shadow(
 
 
 
-.income-card{
+
+.income{
 
 
 position:absolute;
 
 
-bottom:30px;
+bottom:25px;
 
 
-left:30px;
+left:25px;
 
 
 background:white;
@@ -937,36 +857,26 @@ background:white;
 color:#111827;
 
 
-padding:18px 25px;
+padding:15px 25px;
 
 
-border-radius:25px;
+border-radius:20px;
 
 
-}
-
-
-
-.income-card span{
-
-
-display:block;
-
-
-font-size:14px;
+font-size:16px;
 
 
 }
 
 
 
-.income-card strong{
+.income strong{
 
 
 display:block;
 
 
-font-size:30px;
+font-size:25px;
 
 
 color:#2563EB;
@@ -978,13 +888,14 @@ color:#2563EB;
 
 
 
-@media(max-width:1000px){
+@media(max-width:900px){
 
 
-.hero-grid{
+
+.hero-content{
 
 
-grid-template-columns:1fr;
+flex-direction:column;
 
 
 text-align:center;
@@ -997,17 +908,19 @@ text-align:center;
 .hero h1{
 
 
-font-size:42px;
+font-size:38px;
 
 
 }
 
 
 
-.hero-photo{
+.hero-image{
 
 
-height:400px;
+width:320px;
+
+height:320px;
 
 
 }
@@ -1022,7 +935,7 @@ height:400px;
 <!-- ===== ПРЕИМУЩЕСТВА ===== -->
 
 
-<section class="section">
+<section class="section advantages">
 
 
 <div class="container">
@@ -1036,42 +949,19 @@ height:400px;
 
 
 
-<div class="benefits-grid">
+<div class="cards">
 
 
 
-<div class="benefit-card glass">
-
-<div class="benefit-icon">
-
-⚡
-
-</div>
-
-<h3>
-
-Быстрый старт
-
-</h3>
-
-<p>
-
-Помогаем пройти подключение и подготовиться к первым заказам.
-
-</p>
-
-</div>
+<div class="card glass">
 
 
-
-
-<div class="benefit-card glass">
-
-<div class="benefit-icon">
+<div class="card-icon">
 
 💰
 
 </div>
+
 
 <h3>
 
@@ -1079,49 +969,59 @@ height:400px;
 
 </h3>
 
+
 <p>
 
-Получайте оплату за выполненные заказы и управляйте своим графиком.
+Получайте оплату за выполненные заказы и выбирайте удобный график работы.
 
 </p>
 
-</div>
-
-
-
-
-<div class="benefit-card glass">
-
-<div class="benefit-icon">
-
-🕒
 
 </div>
+
+
+
+
+
+<div class="card glass">
+
+
+<div class="card-icon">
+
+⚡
+
+</div>
+
 
 <h3>
 
-Свободный график
+Быстрый старт
 
 </h3>
 
+
 <p>
 
-Вы сами выбираете, когда выходить на линию.
+Поможем пройти регистрацию и подготовиться к первым доставкам.
 
 </p>
+
 
 </div>
 
 
 
 
-<div class="benefit-card glass">
 
-<div class="benefit-icon">
+<div class="card glass">
+
+
+<div class="card-icon">
 
 🚴
 
 </div>
+
 
 <h3>
 
@@ -1129,11 +1029,43 @@ height:400px;
 
 </h3>
 
+
 <p>
 
 Можно работать пешком, на велосипеде или автомобиле.
 
 </p>
+
+
+</div>
+
+
+
+
+
+<div class="card glass">
+
+
+<div class="card-icon">
+
+📍
+
+</div>
+
+
+<h3>
+
+Вся Россия
+
+</h3>
+
+
+<p>
+
+Подключаем курьеров в городах, где доступна доставка.
+
+</p>
+
 
 </div>
 
@@ -1151,16 +1083,77 @@ height:400px;
 
 
 
-<!-- ===== ДОХОД ===== -->
+
+<!-- ===== SEO ТЕКСТ ===== -->
 
 
-<section class="money-section">
+<section class="section seo-text">
 
 
 <div class="container">
 
 
-<div class="money-box glass">
+<div class="glass seo-box">
+
+
+<h2>
+
+Работа курьером Яндекс Еда
+
+</h2>
+
+
+
+<p>
+
+COURIER HUB помогает начать работу курьером Яндекс Еда в разных городах России.
+
+Мы сопровождаем кандидатов на всех этапах: от первой заявки до выхода на линию.
+
+</p>
+
+
+
+<p>
+
+Работа подходит тем, кто хочет самостоятельно выбирать график, получать доход за выполненные заказы и работать без опыта.
+
+Курьером можно работать пешком, на велосипеде или на автомобиле.
+
+</p>
+
+
+
+<p>
+
+Чтобы начать, достаточно оставить заявку.
+
+Мы свяжемся с вами, расскажем условия и поможем пройти подключение.
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- ===== ДОХОД ===== -->
+
+
+<section class="money">
+
+
+<div class="container">
 
 
 <h2>
@@ -1171,47 +1164,39 @@ height:400px;
 
 
 
-<div class="money-number">
 
-70 000 ₽+
+<div class="money-box glass">
 
-</div>
+
+<h3>
+
+💰 Доход курьера зависит от активности
+
+</h3>
 
 
 
 <p>
 
-Средний доход курьера зависит от города, количества заказов и времени работы.
+Чем больше заказов и выходов на линию — тем выше заработок.
 
 </p>
 
 
 
-<div class="money-tags">
+<p>
+
+⚡ Средний доход может составлять от 700 ₽ в час.
+
+</p>
 
 
-<span>
 
-📦 Больше заказов — выше доход
+<p>
 
-</span>
+📌 Итоговая сумма зависит от города, количества заказов и времени работы.
 
-
-<span>
-
-📍 Работа рядом с домом
-
-</span>
-
-
-<span>
-
-🚀 Быстрый выход на линию
-
-</span>
-
-
-</div>
+</p>
 
 
 
@@ -1224,125 +1209,6 @@ height:400px;
 </section>
 
 
-
-
-
-<!-- ===== ШАГИ ===== -->
-
-
-<section class="section">
-
-
-<div class="container">
-
-
-<h2>
-
-🚀 Как начать работать?
-
-</h2>
-
-
-
-<div class="steps-grid">
-
-
-
-<div class="step-card glass">
-
-
-<div class="step-number">
-
-1
-
-</div>
-
-
-<h3>
-
-Оставьте заявку
-
-</h3>
-
-
-<p>
-
-Заполните короткую форму, и мы свяжемся с вами.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="step-card glass">
-
-
-<div class="step-number">
-
-2
-
-</div>
-
-
-<h3>
-
-Получите консультацию
-
-</h3>
-
-
-<p>
-
-Расскажем условия и поможем пройти регистрацию.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="step-card glass">
-
-
-<div class="step-number">
-
-3
-
-</div>
-
-
-<h3>
-
-Начните доставлять
-
-</h3>
-
-
-<p>
-
-Выходите на линию и начинайте получать доход.
-
-</p>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
 
 
 
@@ -1351,10 +1217,12 @@ height:400px;
 <style>
 
 
-/* BENEFITS */
+
+/* ADVANTAGES */
 
 
-.benefits-grid{
+
+.cards{
 
 
 display:grid;
@@ -1370,36 +1238,21 @@ gap:20px;
 
 
 
-.benefit-card{
+
+.card{
 
 
-padding:35px 25px;
+padding:30px;
 
 
 text-align:center;
 
 
-transition:.3s;
-
-
 }
 
 
 
-.benefit-card:hover{
-
-
-transform:translateY(-10px);
-
-
-border-color:#2563EB;
-
-
-}
-
-
-
-.benefit-icon{
+.card-icon{
 
 
 font-size:45px;
@@ -1412,7 +1265,8 @@ margin-bottom:20px;
 
 
 
-.benefit-card h3{
+
+.card h3{
 
 
 font-size:22px;
@@ -1425,7 +1279,8 @@ margin-bottom:15px;
 
 
 
-.benefit-card p{
+
+.card p{
 
 
 color:#CBD5E1;
@@ -1440,13 +1295,59 @@ line-height:1.5;
 
 
 
+
+/* SEO */
+
+
+.seo-box{
+
+
+padding:45px;
+
+
+}
+
+
+
+.seo-box h2{
+
+
+text-align:left;
+
+
+}
+
+
+
+.seo-box p{
+
+
+color:#CBD5E1;
+
+
+font-size:17px;
+
+
+line-height:1.8;
+
+
+margin-bottom:18px;
+
+
+}
+
+
+
+
+
+
 /* MONEY */
 
 
-.money-section{
+.money{
 
 
-padding:90px 0;
+padding:80px 0;
 
 
 background:
@@ -1456,9 +1357,9 @@ linear-gradient(
 
 135deg,
 
-#0B1220,
+#111827,
 
-#172554
+#1E3A8A
 
 );
 
@@ -1470,110 +1371,10 @@ linear-gradient(
 .money-box{
 
 
-padding:55px;
+max-width:700px;
 
 
-text-align:center;
-
-
-}
-
-
-
-.money-number{
-
-
-font-size:70px;
-
-
-font-weight:900;
-
-
-color:#FACC15;
-
-
-margin-bottom:20px;
-
-
-}
-
-
-
-.money-box p{
-
-
-font-size:18px;
-
-
-color:#CBD5E1;
-
-
-}
-
-
-
-.money-tags{
-
-
-display:flex;
-
-
-justify-content:center;
-
-
-flex-wrap:wrap;
-
-
-gap:15px;
-
-
-margin-top:30px;
-
-
-}
-
-
-
-.money-tags span{
-
-
-background:
-
-rgba(255,255,255,.08);
-
-
-padding:12px 20px;
-
-
-border-radius:30px;
-
-
-}
-
-
-
-
-
-/* STEPS */
-
-
-.steps-grid{
-
-
-display:grid;
-
-
-grid-template-columns:repeat(3,1fr);
-
-
-gap:25px;
-
-
-}
-
-
-
-.step-card{
+margin:auto;
 
 
 padding:35px;
@@ -1586,66 +1387,28 @@ text-align:center;
 
 
 
-.step-number{
+
+.money-box h3{
 
 
-width:60px;
+font-size:26px;
 
 
-height:60px;
-
-
-margin:0 auto 25px;
-
-
-border-radius:50%;
-
-
-display:flex;
-
-
-align-items:center;
-
-
-justify-content:center;
-
-
-background:#FACC15;
-
-
-color:#111827;
-
-
-font-size:28px;
-
-
-font-weight:900;
+margin-bottom:20px;
 
 
 }
 
 
 
-.step-card h3{
 
-
-font-size:24px;
-
-
-margin-bottom:15px;
-
-
-}
-
-
-
-.step-card p{
+.money-box p{
 
 
 color:#CBD5E1;
 
 
-line-height:1.5;
+margin-top:15px;
 
 
 }
@@ -1653,10 +1416,11 @@ line-height:1.5;
 
 
 
-@media(max-width:1000px){
+
+@media(max-width:900px){
 
 
-.benefits-grid{
+.cards{
 
 
 grid-template-columns:repeat(2,1fr);
@@ -1665,24 +1429,15 @@ grid-template-columns:repeat(2,1fr);
 }
 
 
-.steps-grid{
-
-
-grid-template-columns:1fr;
-
-
 }
 
-
-
-}
 
 
 
 @media(max-width:600px){
 
 
-.benefits-grid{
+.cards{
 
 
 grid-template-columns:1fr;
@@ -1692,30 +1447,143 @@ grid-template-columns:1fr;
 
 
 
-.money-number{
+.seo-box{
 
 
-font-size:50px;
-
-
-}
-
-
-
-.money-box{
-
-
-padding:30px;
+padding:25px;
 
 
 }
 
 
-
 }
+
 
 
 </style>
+
+<!-- ===== КАК НАЧАТЬ ===== -->
+
+
+<section class="section steps-section">
+
+
+<div class="container">
+
+
+<h2>
+
+🚀 Как начать работать курьером?
+
+</h2>
+
+
+
+<div class="steps-grid">
+
+
+
+<div class="step glass">
+
+
+<span>
+
+1
+
+</span>
+
+
+<h3>
+
+Оставьте заявку
+
+</h3>
+
+
+<p>
+
+Заполните короткую форму на сайте.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="step glass">
+
+
+<span>
+
+2
+
+</span>
+
+
+<h3>
+
+Получите консультацию
+
+</h3>
+
+
+<p>
+
+Мы свяжемся с вами и расскажем условия подключения.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="step glass">
+
+
+<span>
+
+3
+
+</span>
+
+
+<h3>
+
+Начните работать
+
+</h3>
+
+
+<p>
+
+Поможем пройти регистрацию и выйти на первые заказы.
+
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
 
 <!-- ===== ОТЗЫВЫ ===== -->
 
@@ -1731,6 +1599,7 @@ padding:30px;
 ⭐ Отзывы курьеров
 
 </h2>
+
 
 
 
@@ -1750,23 +1619,30 @@ padding:30px;
 
 <p>
 
-«Помогли быстро пройти регистрацию. Уже через несколько дней вышел на первые заказы.»
+«Помогли быстро подключиться. Всё объяснили, первые заказы начал выполнять уже после регистрации.»
 
 </p>
 
 
-<div class="review-author">
+<strong>
 
 Алексей
 
+</strong>
+
+
 <br>
+
+
+<span>
 
 Москва
 
-</div>
+</span>
 
 
 </div>
+
 
 
 
@@ -1784,23 +1660,30 @@ padding:30px;
 
 <p>
 
-«Удобно, что можно самому выбирать график. Работаю в свободное время и доволен.»
+«Удобный график и возможность работать тогда, когда мне удобно. Хороший вариант для дополнительного дохода.»
 
 </p>
 
 
-<div class="review-author">
+<strong>
 
 Максим
 
+</strong>
+
+
 <br>
+
+
+<span>
 
 Санкт-Петербург
 
-</div>
+</span>
 
 
 </div>
+
 
 
 
@@ -1818,20 +1701,26 @@ padding:30px;
 
 <p>
 
-«Все объяснили с нуля. Подключение прошло спокойно и без сложностей.»
+«Начинал без опыта. Получил помощь на каждом этапе подключения.»
 
 </p>
 
 
-<div class="review-author">
+<strong>
 
 Иван
 
+</strong>
+
+
 <br>
+
+
+<span>
 
 Казань
 
-</div>
+</span>
 
 
 </div>
@@ -1850,10 +1739,13 @@ padding:30px;
 
 
 
+
+
+
 <!-- ===== ГОРОДА ===== -->
 
 
-<section class="cities-section">
+<section class="cities">
 
 
 <div class="container">
@@ -1867,15 +1759,17 @@ padding:30px;
 
 
 
-<p class="cities-text">
+<p>
 
-Подключаем курьеров в городах, где доступна доставка Яндекс Еды.
+Подключаем курьеров в городах, где доступна доставка Яндекс Еда.
 
 </p>
 
 
 
+
 <div class="cities-grid">
+
 
 
 <div class="city glass">
@@ -1885,11 +1779,13 @@ padding:30px;
 </div>
 
 
+
 <div class="city glass">
 
 Санкт-Петербург
 
 </div>
+
 
 
 <div class="city glass">
@@ -1899,6 +1795,7 @@ padding:30px;
 </div>
 
 
+
 <div class="city glass">
 
 Екатеринбург
@@ -1906,11 +1803,13 @@ padding:30px;
 </div>
 
 
+
 <div class="city glass">
 
 Новосибирск
 
 </div>
+
 
 
 <div class="city glass">
@@ -1933,82 +1832,99 @@ padding:30px;
 
 
 
-<!-- ===== ДОВЕРИЕ ===== -->
-
-
-<section class="section">
-
-
-<div class="container">
-
-
-<div class="trust-banner glass">
-
-
-<div>
-
-
-<h2>
-
-Почему нам доверяют?
-
-</h2>
-
-
-<p>
-
-Официальный партнер Яндекс Еды.
-
-Помогаем пройти путь от заявки до первого заказа.
-
-</p>
-
-
-</div>
-
-
-
-<div class="trust-items">
-
-
-<div>
-
-✅ Быстрое подключение
-
-</div>
-
-
-<div>
-
-✅ Поддержка на каждом этапе
-
-</div>
-
-
-<div>
-
-✅ Работа без опыта
-
-</div>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
 
 
 
 <style>
+
+
+/* STEPS */
+
+
+.steps-grid{
+
+
+display:grid;
+
+
+grid-template-columns:repeat(3,1fr);
+
+
+gap:25px;
+
+
+}
+
+
+
+.step{
+
+
+padding:35px;
+
+
+text-align:center;
+
+
+}
+
+
+
+.step span{
+
+
+display:flex;
+
+
+width:55px;
+
+
+height:55px;
+
+
+margin:0 auto 20px;
+
+
+align-items:center;
+
+
+justify-content:center;
+
+
+background:#FACC15;
+
+
+color:#111827;
+
+
+border-radius:50%;
+
+
+font-size:26px;
+
+
+font-weight:900;
+
+
+}
+
+
+
+
+.step p{
+
+
+color:#CBD5E1;
+
+
+line-height:1.5;
+
+
+}
+
+
+
+
 
 
 /* REVIEWS */
@@ -2059,29 +1975,25 @@ margin-bottom:20px;
 .review-card p{
 
 
-font-size:17px;
+color:#CBD5E1;
 
 
 line-height:1.6;
 
 
-color:#CBD5E1;
-
-
-margin-bottom:25px;
+margin-bottom:20px;
 
 
 }
 
 
 
-.review-author{
 
 
-font-weight:700;
+.review-card span{
 
 
-font-size:16px;
+color:#94A3B8;
 
 
 }
@@ -2093,7 +2005,7 @@ font-size:16px;
 /* CITIES */
 
 
-.cities-section{
+.cities{
 
 
 padding:80px 0;
@@ -2106,7 +2018,7 @@ linear-gradient(
 
 135deg,
 
-#070B18,
+#070D18,
 
 #111827
 
@@ -2117,7 +2029,17 @@ linear-gradient(
 
 
 
-.cities-text{
+.cities h2{
+
+
+margin-bottom:15px;
+
+
+}
+
+
+
+.cities>div>p{
 
 
 text-align:center;
@@ -2127,9 +2049,6 @@ color:#CBD5E1;
 
 
 font-size:18px;
-
-
-margin-top:-20px;
 
 
 margin-bottom:40px;
@@ -2176,97 +2095,11 @@ font-weight:700;
 
 
 
-/* TRUST */
-
-
-.trust-banner{
-
-
-padding:45px;
-
-
-display:flex;
-
-
-justify-content:space-between;
-
-
-align-items:center;
-
-
-gap:40px;
-
-
-}
-
-
-
-.trust-banner h2{
-
-
-text-align:left;
-
-
-margin-bottom:15px;
-
-
-}
-
-
-
-.trust-banner p{
-
-
-color:#CBD5E1;
-
-
-max-width:500px;
-
-
-font-size:18px;
-
-
-}
-
-
-
-.trust-items{
-
-
-display:flex;
-
-
-flex-direction:column;
-
-
-gap:15px;
-
-
-}
-
-
-
-.trust-items div{
-
-
-padding:15px 25px;
-
-
-border-radius:30px;
-
-
-background:
-
-
-rgba(255,255,255,.08);
-
-
-}
-
-
-
-
 @media(max-width:900px){
+
+
+
+.steps-grid,
 
 
 .reviews-grid{
@@ -2289,29 +2122,6 @@ grid-template-columns:repeat(2,1fr);
 
 
 
-.trust-banner{
-
-
-flex-direction:column;
-
-
-text-align:center;
-
-
-}
-
-
-
-.trust-banner h2{
-
-
-text-align:center;
-
-
-}
-
-
-
 }
 
 
@@ -2326,17 +2136,6 @@ grid-template-columns:1fr;
 
 
 }
-
-
-
-.trust-banner{
-
-
-padding:30px;
-
-
-}
-
 
 
 }
@@ -2377,30 +2176,7 @@ padding:30px;
 
 <p>
 
-Нет. Поможем разобраться с подключением и расскажем все этапы старта.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="faq-card glass">
-
-
-<h3>
-
-Сколько можно заработать?
-
-</h3>
-
-
-<p>
-
-Доход зависит от города, количества заказов и времени работы. В среднем курьеры могут зарабатывать от 70 000 ₽.
+Нет. Мы поможем пройти подключение и расскажем все этапы начала работы.
 
 </p>
 
@@ -2423,7 +2199,7 @@ padding:30px;
 
 <p>
 
-Да. Доступна работа пешком, на велосипеде или на автомобиле.
+Да. Можно работать пешком, на велосипеде или на автомобиле.
 
 </p>
 
@@ -2439,19 +2215,43 @@ padding:30px;
 
 <h3>
 
-Как быстро можно начать?
+Какой график работы?
 
 </h3>
 
 
 <p>
 
-После заполнения заявки поможем пройти регистрацию и подготовиться к выходу на линию.
+Вы сами выбираете удобное время выхода на линию.
 
 </p>
 
 
 </div>
+
+
+
+
+
+<div class="faq-card glass">
+
+
+<h3>
+
+Как быстро начать?
+
+</h3>
+
+
+<p>
+
+После заявки мы свяжемся с вами и поможем пройти регистрацию.
+
+</p>
+
+
+</div>
+
 
 
 </div>
@@ -2466,16 +2266,19 @@ padding:30px;
 
 
 
-<!-- ===== CTA ===== -->
 
 
-<section class="cta-section">
+
+<!-- ===== ФИНАЛЬНАЯ ЗАЯВКА ===== -->
+
+
+<section class="application">
 
 
 <div class="container">
 
 
-<div class="cta-box">
+<div class="application-box">
 
 
 <h2>
@@ -2488,9 +2291,10 @@ padding:30px;
 
 <p>
 
-Оставьте заявку — мы свяжемся с вами, расскажем условия и поможем подключиться.
+Оставьте заявку — мы свяжемся с вами, расскажем условия и поможем стать курьером.
 
 </p>
+
 
 
 
@@ -2506,9 +2310,10 @@ target="_blank">
 
 
 
-<div class="safe">
 
-🔒 Ваши данные используются только для связи по вопросу трудоустройства.
+<div class="secure">
+
+🔒 Ваши данные используются только для связи по вопросу подключения.
 
 </div>
 
@@ -2521,6 +2326,9 @@ target="_blank">
 
 
 </section>
+
+
+
 
 
 
@@ -2545,11 +2353,15 @@ target="_blank">
 </h2>
 
 
+
 <p>
 
-Напишите нам напрямую — поможем разобраться с подключением.
+Напишите нам напрямую в Telegram.
+
+Ответим и поможем разобраться с подключением.
 
 </p>
+
 
 
 
@@ -2560,6 +2372,7 @@ target="_blank">
 Написать в Telegram
 
 </a>
+
 
 
 </div>
@@ -2574,7 +2387,11 @@ target="_blank">
 
 
 
+
+
+
 <style>
+
 
 
 /* FAQ */
@@ -2634,10 +2451,11 @@ line-height:1.6;
 
 
 
-/* CTA */
+
+/* APPLICATION */
 
 
-.cta-section{
+.application{
 
 
 padding:40px 0 90px;
@@ -2647,16 +2465,16 @@ padding:40px 0 90px;
 
 
 
-.cta-box{
+.application-box{
 
 
 padding:60px 40px;
 
 
-text-align:center;
-
-
 border-radius:40px;
+
+
+text-align:center;
 
 
 background:
@@ -2673,8 +2491,8 @@ linear-gradient(
 );
 
 
-box-shadow:
 
+box-shadow:
 
 0 30px 80px rgba(37,99,235,.25);
 
@@ -2683,7 +2501,7 @@ box-shadow:
 
 
 
-.cta-box h2{
+.application-box h2{
 
 
 margin-bottom:20px;
@@ -2693,26 +2511,21 @@ margin-bottom:20px;
 
 
 
-.cta-box p{
+.application-box p{
 
 
 font-size:19px;
 
 
-max-width:650px;
-
-
-margin:0 auto 35px;
-
-
-color:white;
+margin-bottom:35px;
 
 
 }
 
 
 
-.safe{
+
+.secure{
 
 
 margin-top:25px;
@@ -2721,10 +2534,11 @@ margin-top:25px;
 font-size:14px;
 
 
-opacity:.8;
+color:#E2E8F0;
 
 
 }
+
 
 
 
@@ -2739,10 +2553,10 @@ opacity:.8;
 padding:55px;
 
 
-text-align:center;
-
-
 border-radius:40px;
+
+
+text-align:center;
 
 
 background:
@@ -2776,10 +2590,10 @@ margin-bottom:15px;
 .telegram-card p{
 
 
-font-size:18px;
-
-
 color:#CBD5E1;
+
+
+font-size:18px;
 
 
 margin-bottom:30px;
@@ -2792,13 +2606,10 @@ margin-bottom:30px;
 .telegram-card a{
 
 
-display:inline-flex;
+display:inline-block;
 
 
 padding:16px 35px;
-
-
-border-radius:40px;
 
 
 background:white;
@@ -2807,7 +2618,13 @@ background:white;
 color:#2563EB;
 
 
-font-weight:800;
+border-radius:40px;
+
+
+font-weight:900;
+
+
+text-decoration:none;
 
 
 }
@@ -2828,14 +2645,7 @@ grid-template-columns:1fr;
 
 
 
-.cta-box{
-
-
-padding:40px 20px;
-
-
-}
-
+.application-box,
 
 
 .telegram-card{
@@ -2856,13 +2666,14 @@ padding:35px 20px;
 <!-- ===== ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ ===== -->
 
 
-<section class="legal-section">
+<section class="section legal">
 
 
 <div class="container">
 
 
 <div class="legal-box glass">
+
 
 
 <h2>
@@ -2881,81 +2692,153 @@ COURIER HUB помогает кандидатам начать работу ку
 
 
 
-<div class="legal-details">
+
+<div class="legal-grid">
+
+
+
+<div>
+
+
+<h3>
+
+Индивидуальный предприниматель
+
+</h3>
 
 
 <p>
-
-<strong>Индивидуальный предприниматель:</strong><br>
 
 Боровиков Кирилл Сергеевич
 
 </p>
 
 
+</div>
+
+
+
+
+
+<div>
+
+
+<h3>
+
+ИНН
+
+</h3>
+
 
 <p>
-
-<strong>ИНН:</strong><br>
 
 470424352273
 
 </p>
 
 
+</div>
+
+
+
+
+
+<div>
+
+
+<h3>
+
+ОГРНИП
+
+</h3>
+
 
 <p>
-
-<strong>ОГРНИП:</strong><br>
 
 326470400091594
 
 </p>
 
 
+</div>
+
+
+
+
+
+<div>
+
+
+<h3>
+
+Регион регистрации
+
+</h3>
+
 
 <p>
-
-<strong>Регион регистрации:</strong><br>
 
 Санкт-Петербург
 
 </p>
 
 
+</div>
+
+
+
+
+
+<div>
+
+
+<h3>
+
+Телефон
+
+</h3>
+
 
 <p>
 
-<strong>Контакты:</strong><br>
+<a href="tel:+79013082317">
 
-Телефон: +7 901 308-23-17<br>
++7 901 308-23-17
 
-Email: kb0rovikov@yandex.ru
+</a>
 
 </p>
-
 
 
 </div>
 
 
 
-<div class="documents">
 
 
-<a href="#privacy">
+<div>
 
-Политика конфиденциальности
+
+<h3>
+
+Email
+
+</h3>
+
+
+<p>
+
+<a href="mailto:kb0rovikov@yandex.ru">
+
+kb0rovikov@yandex.ru
 
 </a>
 
+</p>
 
 
-<a href="#personal">
+</div>
 
-Согласие на обработку персональных данных
-
-</a>
 
 
 </div>
@@ -2974,16 +2857,21 @@ Email: kb0rovikov@yandex.ru
 
 
 
-<!-- ===== ДОКУМЕНТЫ ===== -->
 
 
-<section class="documents-text">
+
+<!-- ===== ПЕРСОНАЛЬНЫЕ ДАННЫЕ ===== -->
+
+
+<section class="section documents">
 
 
 <div class="container">
 
 
-<div class="document-card glass" id="privacy">
+
+<div class="document-box glass">
+
 
 
 <h2>
@@ -2996,7 +2884,7 @@ Email: kb0rovikov@yandex.ru
 
 <p>
 
-Настоящая политика регулирует порядок обработки персональных данных пользователей сайта COURIER HUB.
+Оставляя заявку на сайте COURIER HUB, пользователь предоставляет свои контактные данные для обратной связи по вопросам подключения к работе.
 
 </p>
 
@@ -3004,7 +2892,15 @@ Email: kb0rovikov@yandex.ru
 
 <p>
 
-Пользователь может оставить имя, номер телефона и другие контактные данные для связи по вопросам трудоустройства и подключения к работе.
+Обработка персональных данных осуществляется оператором:
+
+<strong>
+
+ИП Боровиков Кирилл Сергеевич
+
+</strong>
+
+.
 
 </p>
 
@@ -3012,9 +2908,7 @@ Email: kb0rovikov@yandex.ru
 
 <p>
 
-Оператор персональных данных:
-
-ИП Боровиков Кирилл Сергеевич.
+Мы используем полученную информацию только для связи с пользователем и консультации по вопросам работы курьером.
 
 </p>
 
@@ -3026,12 +2920,15 @@ Email: kb0rovikov@yandex.ru
 
 
 
-<div class="document-card glass" id="personal">
+
+
+<div class="document-box glass">
+
 
 
 <h2>
 
-Согласие на обработку персональных данных
+Согласие на обработку данных
 
 </h2>
 
@@ -3039,7 +2936,7 @@ Email: kb0rovikov@yandex.ru
 
 <p>
 
-Оставляя заявку на сайте, пользователь подтверждает согласие на обработку предоставленных персональных данных для обратной связи.
+Нажимая кнопку отправки заявки, пользователь подтверждает согласие на обработку предоставленных персональных данных.
 
 </p>
 
@@ -3047,7 +2944,7 @@ Email: kb0rovikov@yandex.ru
 
 <p>
 
-Обработка данных осуществляется в соответствии с действующим законодательством Российской Федерации.
+Пользователь предоставляет имя, номер телефона и другие данные, необходимые для обратной связи.
 
 </p>
 
@@ -3056,10 +2953,15 @@ Email: kb0rovikov@yandex.ru
 </div>
 
 
+
+
 </div>
 
 
 </section>
+
+
+
 
 
 
@@ -3068,16 +2970,19 @@ Email: kb0rovikov@yandex.ru
 <style>
 
 
+
 /* LEGAL */
 
 
-.legal-section{
+
+.legal{
 
 
-padding:90px 0 40px;
+padding-top:70px;
 
 
 }
+
 
 
 
@@ -3091,17 +2996,8 @@ padding:45px;
 
 
 
-.legal-box h2{
 
-
-margin-bottom:25px;
-
-
-}
-
-
-
-.legal-box p{
+.legal-box>p{
 
 
 color:#CBD5E1;
@@ -3110,23 +3006,22 @@ color:#CBD5E1;
 line-height:1.7;
 
 
-font-size:16px;
+margin-bottom:35px;
 
 
 }
 
 
 
-.legal-details{
 
 
-margin-top:35px;
+.legal-grid{
 
 
 display:grid;
 
 
-grid-template-columns:repeat(2,1fr);
+grid-template-columns:repeat(3,1fr);
 
 
 gap:20px;
@@ -3136,15 +3031,17 @@ gap:20px;
 
 
 
-.legal-details p{
+
+.legal-grid div{
+
+
+padding:25px;
 
 
 background:
 
+
 rgba(255,255,255,.06);
-
-
-padding:20px;
 
 
 border-radius:20px;
@@ -3155,44 +3052,30 @@ border-radius:20px;
 
 
 
-
-.documents{
-
-
-display:flex;
+.legal-grid h3{
 
 
-gap:20px;
+font-size:18px;
 
 
-margin-top:35px;
-
-
-flex-wrap:wrap;
+margin-bottom:10px;
 
 
 }
 
 
 
-.documents a{
+
+.legal-grid p,
 
 
-padding:14px 25px;
+.legal-grid a{
 
 
-border-radius:30px;
+color:#CBD5E1;
 
 
-background:
-
-rgba(250,204,21,.15);
-
-
-color:#FACC15;
-
-
-border:1px solid rgba(250,204,21,.3);
+text-decoration:none;
 
 
 }
@@ -3204,17 +3087,18 @@ border:1px solid rgba(250,204,21,.3);
 /* DOCUMENTS */
 
 
-.documents-text{
+
+.documents{
 
 
-padding:40px 0 90px;
+padding-top:20px;
 
 
 }
 
 
 
-.document-card{
+.document-box{
 
 
 padding:40px;
@@ -3227,10 +3111,7 @@ margin-bottom:25px;
 
 
 
-.document-card h2{
-
-
-font-size:30px;
+.document-box h2{
 
 
 margin-bottom:20px;
@@ -3240,7 +3121,7 @@ margin-bottom:20px;
 
 
 
-.document-card p{
+.document-box p{
 
 
 color:#CBD5E1;
@@ -3257,10 +3138,27 @@ margin-bottom:15px;
 
 
 
-@media(max-width:800px){
+
+@media(max-width:900px){
 
 
-.legal-details{
+.legal-grid{
+
+
+grid-template-columns:repeat(2,1fr);
+
+
+}
+
+
+}
+
+
+
+@media(max-width:600px){
+
+
+.legal-grid{
 
 
 grid-template-columns:1fr;
@@ -3270,7 +3168,10 @@ grid-template-columns:1fr;
 
 
 
-.legal-box{
+.legal-box,
+
+
+.document-box{
 
 
 padding:25px;
@@ -3280,17 +3181,8 @@ padding:25px;
 
 
 
-.document-card{
-
-
-padding:25px;
-
-
 }
 
-
-
-}
 
 
 </style>
@@ -3304,14 +3196,16 @@ padding:25px;
 <div class="container footer-content">
 
 
+
 <div class="footer-brand">
 
 
 <div class="footer-logo">
 
-CH
+КС
 
 </div>
+
 
 
 <div>
@@ -3334,7 +3228,10 @@ COURIER HUB
 </div>
 
 
+
 </div>
+
+
 
 
 
@@ -3377,35 +3274,43 @@ COURIER HUB
 
 
 
+
+
 <div class="footer-contact">
 
 
-<h4>
+<h3>
 
 Контакты
 
-</h4>
+</h3>
+
 
 
 <a href="tel:+79013082317">
 
-+7 901 308-23-17
+📞 +7 901 308-23-17
 
 </a>
+
 
 
 <a href="mailto:kb0rovikov@yandex.ru">
 
-kb0rovikov@yandex.ru
+✉ kb0rovikov@yandex.ru
 
 </a>
 
 
-<a href="https://t.me/ki_sergeevich" target="_blank">
 
-Telegram
+<a href="https://t.me/ki_sergeevich"
+
+target="_blank">
+
+💬 Telegram
 
 </a>
+
 
 
 </div>
@@ -3413,6 +3318,8 @@ Telegram
 
 
 </div>
+
+
 
 
 
@@ -3430,6 +3337,7 @@ Telegram
 </p>
 
 
+
 </div>
 
 
@@ -3440,16 +3348,21 @@ Telegram
 
 
 
+
+
+
 <style>
+
 
 
 /* FOOTER */
 
 
+
 footer{
 
 
-background:#030712;
+background:#050A14;
 
 
 padding:60px 0 25px;
@@ -3461,6 +3374,7 @@ border-top:
 
 
 }
+
 
 
 
@@ -3476,10 +3390,8 @@ grid-template-columns:2fr 1fr 1fr;
 gap:40px;
 
 
-align-items:start;
-
-
 }
+
 
 
 
@@ -3499,16 +3411,32 @@ gap:20px;
 
 
 
+
+
 .footer-logo{
 
 
-width:65px;
+width:70px;
 
 
-height:65px;
+height:70px;
 
 
-border-radius:20px;
+border-radius:22px;
+
+
+background:
+
+
+linear-gradient(
+
+135deg,
+
+#2563EB,
+
+#7C3AED
+
+);
 
 
 display:flex;
@@ -3526,31 +3454,18 @@ font-size:28px;
 font-weight:900;
 
 
-background:
-
-
-linear-gradient(
-
-135deg,
-
-#2563EB,
-
-#7C3AED
-
-);
-
-
 }
+
 
 
 
 .footer-brand h3{
 
 
-font-size:24px;
+font-size:25px;
 
 
-margin-bottom:8px;
+margin-bottom:10px;
 
 
 }
@@ -3564,6 +3479,7 @@ color:#94A3B8;
 
 
 }
+
 
 
 
@@ -3583,6 +3499,7 @@ font-size:14px;
 
 
 
+
 .footer-contact{
 
 
@@ -3592,17 +3509,14 @@ display:flex;
 flex-direction:column;
 
 
-gap:12px;
+gap:15px;
 
 
 }
 
 
 
-.footer-contact h4{
-
-
-font-size:20px;
+.footer-contact h3{
 
 
 margin-bottom:5px;
@@ -3612,13 +3526,14 @@ margin-bottom:5px;
 
 
 
+
 .footer-contact a{
 
 
 color:#CBD5E1;
 
 
-transition:.3s;
+text-decoration:none;
 
 
 }
@@ -3632,6 +3547,7 @@ color:#FACC15;
 
 
 }
+
 
 
 
@@ -3664,7 +3580,8 @@ font-size:13px;
 
 
 
-@media(max-width:800px){
+
+@media(max-width:900px){
 
 
 .footer-content{
@@ -3689,11 +3606,13 @@ justify-content:center;
 }
 
 
-
 }
 
 
+
+
 </style>
+
 
 
 
