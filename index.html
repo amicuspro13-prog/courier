@@ -432,12 +432,9 @@ font-size:14px;
 
 .hero-image{
 
-
 width:450px;
 
-
 height:450px;
-
 
 border-radius:45px;
 
@@ -447,15 +444,13 @@ background:
 linear-gradient(
 145deg,
 #1E3A8A,
-#312E81
+#4C1D95
 );
 
 
 display:flex;
 
-
 align-items:center;
-
 
 justify-content:center;
 
@@ -464,6 +459,13 @@ position:relative;
 
 
 overflow:hidden;
+
+
+box-shadow:
+
+0 25px 60px rgba(37,99,235,.35);
+
+}
 
 
 }
@@ -475,9 +477,32 @@ overflow:hidden;
 
 .courier-art{
 
+width:100%;
 
-font-size:160px;
+height:100%;
 
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+}
+
+
+
+.courier-art img{
+
+width:85%;
+
+max-width:360px;
+
+object-fit:contain;
+
+filter:
+drop-shadow(
+0 20px 30px rgba(0,0,0,.35)
+);
 
 }
 
@@ -737,9 +762,10 @@ target="_blank">
 
 <div class="courier-art">
 
-🛵
+<img src="https://cdn3d.iconscout.com/3d/premium/thumb/delivery-man-5471734-4573222.png" alt="Курьер доставки">
 
 </div>
+
 
 
 
