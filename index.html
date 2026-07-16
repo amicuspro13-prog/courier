@@ -429,6 +429,89 @@ header {
     color:#CBD5E1;
 
 }
+.steps-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.step {
+
+    text-align:center;
+
+    background:
+    rgba(255,255,255,.06);
+
+    padding:25px 15px;
+
+    border-radius:20px;
+
+}
+
+
+
+.step-number {
+
+    width:45px;
+
+    height:45px;
+
+    margin:0 auto 15px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:
+    linear-gradient(
+    135deg,
+    #3155D9,
+    #7555D9
+    );
+
+    font-size:22px;
+
+    font-weight:900;
+
+}
+
+
+
+.step h3 {
+
+    margin-bottom:10px;
+
+}
+
+
+
+.step p {
+
+    font-size:15px;
+
+    color:#CBD5E1;
+
+}
+
+
+
+@media(max-width:800px){
+
+.steps-grid {
+
+grid-template-columns:1fr;
+
+}
 
 
 
@@ -866,30 +949,94 @@ target="_blank">
 
 
 <h2>
-Как начать работать?
+<div class="card steps-card">
+
+
+<h2>
+🚀 Как начать работать?
 </h2>
 
 
+<div class="steps-grid">
+
+
+
+<div class="step">
+
+<div class="step-number">
+1
+</div>
+
+<h3>
+Оставьте заявку
+</h3>
 
 <p>
-
-1️⃣ Оставьте заявку на сайте
-
-<br><br>
-
-2️⃣ Мы свяжемся с вами и ответим на вопросы
-
-<br><br>
-
-3️⃣ Поможем пройти регистрацию
-
-<br><br>
-
-4️⃣ Выходите на первые доставки
-
+Заполните короткую форму на сайте.
 </p>
 
+</div>
 
+
+
+<div class="step">
+
+<div class="step-number">
+2
+</div>
+
+<h3>
+Получите консультацию
+</h3>
+
+<p>
+Мы свяжемся с вами и ответим на вопросы.
+</p>
+
+</div>
+
+
+
+<div class="step">
+
+<div class="step-number">
+3
+</div>
+
+<h3>
+Пройдите подключение
+</h3>
+
+<p>
+Поможем зарегистрироваться и подготовиться к работе.
+</p>
+
+</div>
+
+
+
+<div class="step">
+
+<div class="step-number">
+4
+</div>
+
+<h3>
+Выходите на линию
+</h3>
+
+<p>
+Начинайте выполнять первые доставки.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</div>
 
 </div>
 
