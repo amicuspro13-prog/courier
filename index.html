@@ -8,108 +8,193 @@
 <meta name="keywords" content="работа курьером, вакансии курьер, доставка, курьер Россия">
 
 <style>
-/* ===== НОВАЯ ЦВЕТОВАЯ СХЕМА ===== */
 
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
-    background: #0F172A;
-    color: #FFFFFF;
+    padding: 0;
     font-family: Arial, sans-serif;
 }
 
 
-/* Главный экран */
+body {
+    background: #0F172A;
+    color: #FFFFFF;
+}
+
+
+/* Контейнер */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* Шапка */
+
+header {
+    background: #111827;
+    padding: 25px 0;
+}
+
+
+/* Логотип */
+
+.logo {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    background: linear-gradient(
+        90deg,
+        #2563EB,
+        #7C3AED
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.tagline {
+    margin-top: 8px;
+    color: #CBD5E1;
+    font-size: 16px;
+}
+
+
+/* Первый экран */
 
 .hero {
+
+    padding: 80px 25px;
+
+    text-align: center;
+
     background: linear-gradient(
         135deg,
         #2563EB,
         #7C3AED
     );
 
-    padding: 70px 25px;
-    border-radius: 0 0 45px 45px;
+    border-radius: 0 0 50px 50px;
 }
 
 
-/* Заголовки */
+.hero h1 {
 
-h1 {
-    font-size: 42px;
-    font-weight: 800;
-    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
 }
 
 
-h2 {
-    color: #FFFFFF;
-    font-size: 30px;
-}
+.hero p {
 
-
-/* Все блоки */
-
-section {
-    background: rgba(255,255,255,0.08);
-    margin: 25px;
-    padding: 30px;
-    border-radius: 25px;
-    backdrop-filter: blur(10px);
-}
-
-
-/* Текст */
-
-p {
+    font-size: 20px;
     color: #E2E8F0;
-    font-size: 18px;
-    line-height: 1.5;
+    margin-bottom: 30px;
+
 }
 
 
-/* Главная кнопка */
+/* Кнопка */
 
 .btn {
+
     display: inline-block;
 
     background: #FACC15;
+
     color: #111827;
 
-    padding: 16px 35px;
+    padding: 18px 40px;
 
-    border-radius: 30px;
+    border-radius: 35px;
 
-    font-weight: 800;
+    font-size: 18px;
+
+    font-weight: 900;
+
     text-decoration: none;
 
-    margin-top: 20px;
+    transition: 0.3s;
+
 }
 
-
-/* Кнопка при наведении */
 
 .btn:hover {
+
+    transform: scale(1.05);
+
     background: #FFFFFF;
+
 }
+
+
+
+/* Блоки */
+
+section {
+
+    margin: 35px 20px;
+
+    padding: 35px;
+
+    background: rgba(255,255,255,0.08);
+
+    border-radius: 25px;
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+}
+
+
+section h2 {
+
+    text-align: center;
+
+    font-size: 30px;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+section p {
+
+    color: #E2E8F0;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    margin-bottom: 12px;
+
+}
+
 
 
 /* Карточки преимуществ */
 
-.advantages,
-.steps,
-.trust {
+.card {
 
-    background: linear-gradient(
-        145deg,
-        rgba(37,99,235,0.25),
-        rgba(124,58,237,0.25)
-    );
+    background: rgba(255,255,255,0.1);
 
-    border: 1px solid rgba(255,255,255,0.15);
+    padding: 25px;
+
+    border-radius: 20px;
+
 }
 
 
-/* Telegram блок */
+
+/* Telegram */
 
 .telegram-contact {
 
@@ -119,17 +204,55 @@ p {
         #2563EB
     );
 
-    text-align: center;
+    text-align:center;
+
 }
 
 
-/* Ссылки */
+/* Подвал */
 
-a {
-    color: #FACC15;
+footer {
+
+    background:#020617;
+
+    padding:30px;
+
+    text-align:center;
+
+    color:#CBD5E1;
+
 }
+
+
+/* Мобильная версия */
+
+@media(max-width:600px){
+
+.logo {
+
+    font-size:32px;
+
+}
+
+
+.hero h1 {
+
+    font-size:32px;
+
+}
+
+
+section {
+
+    margin:20px 10px;
+
+}
+
+}
+
 
 </style>
+
 </head>
 <div class="telegram-contact">
 
